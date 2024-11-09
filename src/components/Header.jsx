@@ -1,5 +1,6 @@
 import React from 'react'
 import ThemeToggleButton from './ThemeToggleButton'
+import Cart from './Cart'
 
 const Header = () => {
   return (
@@ -8,6 +9,7 @@ const Header = () => {
             <a href="#" className='text-3xl text-black hover:text-black md:text-5xl dark:text-white'>Listing</a>
             <div className="nav-right flex flex-wrap gap-4 items-center">
                 <ThemeToggleButton />
+                <Cart />
             </div>
         </div>
     </header>
